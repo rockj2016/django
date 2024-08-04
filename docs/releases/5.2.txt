@@ -34,6 +34,11 @@ What's new in Django 5.2
 Minor features
 --------------
 
+:mod:`django.shortcuts`
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* The new :func:`django.shortcuts.make_toast` function returns ``'toast'``.
+
 :mod:`django.contrib.admin`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -99,6 +104,7 @@ Minor features
 
 :mod:`django.contrib.syndication`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 * All :class:`~django.utils.feedgenerator.SyndicationFeed` classes now support
   a ``stylesheets`` attribute. If specified, an ``<? xml-stylesheet ?>``
@@ -283,6 +289,7 @@ PostgreSQL 14 and higher.
 
 Miscellaneous
 -------------
+
 
 * ...
 
